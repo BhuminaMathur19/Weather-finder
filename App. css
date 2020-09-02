@@ -1,0 +1,158 @@
+@import url ('https://fonts.googleapis.com/css?family= Open+Sans:300, 400');
+body {
+    font-family : "Open Sans", serif ;
+    background : linear- gradient ( to right, #e67e22, #e74c3c) ;
+}
+
+. wrapper {
+     background : linear- gradient (to right, #e67e22, #e74c3c) ;
+     display : flex;
+      justify-content : center ;
+}
+
+. main {
+      height : 90vh;
+      background : #fff;
+      box-shadow : 0 px 13 px 40 px -13 px
+      rgba (0, 0,0,0.75) ;
+      width : 80%;
+      margin : 25 px auto;
+}
+
+. title-container {
+     height : 15 vh;
+     min-height : 100%;
+     background-size : cover ;
+     display : flex;
+      justify-content : center;
+      text-align : center;
+      color : #000;
+}
+. title - container_subtitle {
+     font-style : italic ;
+     font-weight : 100 ;
+     letter - spacing : 1 px ;
+     line - height : 1.5 ;
+}
+
+. form - container {
+    background - color : #2c3e50 ;
+    height : 70vh ;
+    padding- top : 50 px;
+    padding-left : 50 px;
+}
+
+input [ type = "text" ] { 
+   background-color : transparent ;
+   border : 0;
+   border- bottom : solid 1 px #f16051;
+   width : 30% ;
+   padding - bottom : 4 px ;
+   color : #fff ! important;
+   font - weight : lighter;
+   letter - spacing : 2 px;
+   margin - bottom : 30 px ;
+   margin - right : 20 px;
+   font - size : 20 px ;
+}
+
+input [type = " text "] {
+   outline : none ;
+}
+
+input : -webkit - autofill {
+    - webkit - box - shadow : 0 0 0 30 px #2c3e50
+       inset;
+    - webkit-text-fill-color : #fff ! important;
+}
+
+button {
+   border : 0;
+   padding : 8px 20px ;
+   margin : 0 2 px;
+   border - radius : 2 px;
+   font - weight : lighter ;
+   letter - spacing : 1 px ;
+   font - size : 15 px ;
+   cursor : pointer ;
+   background- color : #f16051;
+   color : #fff ;
+   font - weight : 100 ;
+}
+
+button - active {
+   outline : none ;
+}
+
+button - hover {
+   cursor : pointer ;
+}
+
+. weather_info {
+     width : 60% ;
+      font - size : 20 px ;
+      font - weight : 200 ;
+      letter - spacing : 2 px ;
+}
+
+. weather_key {
+     color : # f16051 ;
+     border - bottom : solid 2 px rgba( 255 , 255 , 255, 0.06 ) ;
+     padding : 20px 0 20px 0 ;
+     font - weight : 400 ;
+}
+
+. weather_key : last - child {
+     border : 0 ;
+}
+
+. weather_value {
+     color : #fff ;
+     font - weight : 200 ;
+}
+
+. weather_error {
+     color : #f16051 ;
+     font - size : 20 px ;
+     letter - spacing : 1 px ;
+     font - weight : 200 ;
+}
+
+@media screen and ( max - width : 700 px) 
+{
+. title - container_ title { 
+   font - size : 30 px ;
+}
+. title - container_subtitle {
+   font - size :18 px ;
+}
+. form - container {
+    padding - top : 30 px ;
+}
+. weather_key {
+    padding : 4px 0 4px 0 ;
+}
+input [type = " text " ] {
+   margin - bottom : 10 px ;
+}
+button {
+   padding : 4 px 10px ;
+}
+}
+
+@media screen and ( max - width : 500px) 
+{
+. title - container_title {
+    font - size : 25 px ;
+}
+. title - container_ subtitle {
+     font - size : 14 px ;
+}
+button {
+   padding : 2 px ;
+}
+}
+
+
+
+
